@@ -26,7 +26,7 @@ require_once 'dbcon.php';
                               $result = mysqli_query($conn, "INSERT INTO `users`(`name`, `email`, `password`, `photo`) VALUES ('$full_name', '$email', '$password', '$photo_name')");
 
                               if ($result){
-                                  $success = "বিনা খরচে রেজিস্টার হয়ে গেছে";
+                                    $success = "বিনা খরচে রেজিস্টার হয়ে গেছে";
                               } else {
                                 $regis_error = "মনে হচ্ছে একটি সমস্যা হয়েছে";
                               }

@@ -14,7 +14,7 @@
     <title>Student Portal</title>
   </head>
   <body>
-    
+
 
 
   <div class="container header_wrapper"> <!-- Container -->
@@ -29,13 +29,13 @@
 
       <div class="col-md-2"> <!-- Call 2 -->
         <div class="button1">
-          <button><a href="registration.html">রেজিস্টার </a></button>
+          <button><a href="registration.php">রেজিস্টার </a></button>
         </div>
       </div>
 
       <div class="col-md-2">
         <div class="button2">
-          <button><a href="login.html">লগইন </a></button>
+          <button><a href="login.php">লগইন </a></button>
         </div>
       </div>
     </div>
